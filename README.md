@@ -5,11 +5,11 @@
 **US BikeShare Data**
 
 ### Description
-Describe what your project is about and what it does
+**In this project, I will write Python code to import US bike share data and answer interesting questions about it by computing descriptive statistics.**
 
 ### Files used
-Include the files used
+files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+**It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.**
 
