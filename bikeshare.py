@@ -9,7 +9,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
-
     Returns:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -50,7 +49,6 @@ def get_filters():
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
-
     Args:
         (str) city - name of the city to analyze
         (str) month - name of the month to filter by, or "all" to apply no month filter
@@ -162,12 +160,14 @@ def user_stats(df, city):
                                       
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+   
     x = 1
     while True:
         raw = input('\nWould you like to see some raw data? Enter yes or no. \n')                             
+       
         if raw.lower() == 'yes':
            print(df[x:x+5])
-           x += 5
+           x = x + 5
         else:
             break                        
 def main():
